@@ -17,7 +17,7 @@ object GeocodeRRCC {
     override val quoting = QUOTE_ALL
   }
 
-  val googleApiKey = "AIzaSyDBWQovYqC-bR1yB6xsOJDGp1wS5s_Vknk"
+  val googleApiKey = ""
   val geoApiContext = new GeoApiContext().setApiKey(googleApiKey)
 
   def main(args: Array[String]): Unit = {
